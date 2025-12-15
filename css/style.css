@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-primary:#eb949c;
+	--padding-section: 8% 0;
+	--color-texto-gris:#606060;
+}
+
+body{
+	font-family: "Urbanist", sans-serif;
+	font-size:16px;
+	color:#000;
+}
+
+#hero{
+  background-image: url("../img/backkk.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo{
+  width: 60%;      
+  max-width: 600px;
+}
+
+
+.section{
+	padding: var(--padding-section);
+}
+
+#quien_soy{
+	background-color:var(--color-primary);
+	color:#fff;
+}
+
+
+.titulo{
+	font-family: "Bodoni Moda", serif;
+	color:#efe6d2;
+	font-size: 70px;
+}
+
+.titulo-rosado{
+	font-family: "Bodoni Moda", serif;
+	color:var(--color-primary);
+	font-size: 70px;
+}
+
+.subtitulo{
+	font-family: "Bodoni Moda", serif;
+	color:#fff;
+	font-size: 60px;
+}
+
+.fondo_info{
+	background-color:#fff;
+    border: 04px solid #F0D8A4;
+	border-radius: 10px;
+    padding: 40px;
+	color:#000;
+}
+
+#talento h4{
+	color:#999999;
+	font-family: "Bodoni Moda", serif;
+}
+
+
+#talento i{
+	color:var(--color-primary);
+}
+
+
+.btn-revista{
+	background-color: var(--color-primary);
+	color:#fff;
+	padding: 20px 30px;
+}
+
+.btn-revista:hover{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+
+#revista h2{
+   color: var(--color-primary);
+}
+
+#revista{
+	background-color: #fffbf8;
+}
+
+#foto{
+	background-color:  var(--color-primary);
+	color:#fff;
+}
+
+
+.btn-proyecto{
+	background-color: #f0ebe0;
+	color:#000;
+}
+
+.btn-proyecto:hover{
+	background-color: var(--color-primary);
+	color: #f0ebe0;
+	border: 1px solid #f0ebe0;
+}
+
+footer{
+	background-color: dimgrey;
+	color: #f0ebe0;
+	font-size: 12px;
+	padding: 100px
+}
+
+#what{
+	border-top: 1px solid #ddd;
+}
+
+
